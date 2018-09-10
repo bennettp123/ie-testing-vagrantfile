@@ -1,6 +1,6 @@
 # Usage: IE={box} vagrant up
 #
-# Eg. IE=XPIE6 vagrant up
+# Eg. IE=ie6.xp vagrant up
 
 boxes = {
     "ie6.xp"       => "http://aka.ms/ie6.xp.vagrant",
