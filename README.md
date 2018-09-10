@@ -8,13 +8,14 @@ IE=<version> vagrant up
 ```
 
 Where `<version>` is one of the following:
-* XPIE6
-* XPIE8
-* VistaIE7
-* Win7IE8
-* Win7IE9
-* Win7IE10
-* Win7IE11
-* Win8IE10
-* Win8IE11
+* `"ie6.xp"`
+* `"ie7.vista"`
+* `"ie8.xp"`
+* `"ie8.win7"`
+* `"ie9.win7"`
+* `"ie10.win7"`
+* `"ie10.win8"`
+* `"ie11.win7"`
+* `"ie11.win81"`
+* `"msedge.win10"`
 

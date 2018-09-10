@@ -3,16 +3,16 @@
 # Eg. IE=XPIE6 vagrant up
 
 boxes = {
-    "XPIE6"     => "http://aka.ms/vagrant-xp-ie6",
-    "XPIE8"     => "http://aka.ms/vagrant-xp-ie8",
-    "VistaIE7"  => "http://aka.ms/vagrant-vista-ie7",
-    "Win7IE8"   => "http://aka.ms/vagrant-win7-ie8",
-    "Win7IE9"   => "http://aka.ms/vagrant-win7-ie9",
-    "Win7IE10"  => "http://aka.ms/vagrant-win7-ie10",
-    "Win7IE11"  => "http://aka.ms/vagrant-win7-ie11",
-    "Win8IE10"  => "http://aka.ms/vagrant-win8-ie10",
-    "Win8IE11"  => "http://aka.ms/vagrant-win81-ie11",
-    "Win10Edge" => "http://aka.ms/msedge.win10.vagrant",
+    "ie6.xp"       => "http://aka.ms/ie6.xp.vagrant",
+    "ie7.vista"    => "http://aka.ms/ie7.vista.vagrant",
+    "ie8.xp"       => "http://aka.ms/ie8.xp.vagrant",
+    "ie8.win7"     => "http://aka.ms/ie8.win7.vagrant",
+    "ie9.win7"     => "http://aka.ms/ie9.win7.vagrant",
+    "ie10.win7"    => "http://aka.ms/ie10.win7.vagrant",
+    "ie10.win8"    => "http://aka.ms/ie10.win8.vagrant",
+    "ie11.win7"    => "http://aka.ms/ie11.win7.vagrant",
+    "ie11.win81"   => "http://aka.ms/ie11.win81.vagrant",
+    "msedge.win10" => "http://aka.ms/msedge.win10.vagrant",
 }
 
 unless boxes.has_key? ENV['IE']
